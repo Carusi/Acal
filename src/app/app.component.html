@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+
+   
+<form name="calculator" class="calculadora">
+  <input type="textfield" name="visualiza" class="resultado"  id="visualiza" [(ngModel)]="visualiza">
+  <input type="hidden" class="memoria"  name="memoria"  [(ngModel)]="memoria"   >
+
+  <tr>
+<br>
+<div class="col">
+<td><input type="button" value="7" class="gris" (click)="siete('')"></td>
+<td><input type="button" value="8" class="gris" (click)="ocho('')"></td>
+<td><input type="button" value="9" class="gris" (click)="nueve('')"></td>
+<td><input type="button" value="+" class="gris" (click)="suma()"></td>
+</div>
+<br>
+<div class="col">
+<input type="button" value="4" class="gris" (click)="cuatro('')">
+<input type="button" value="5" class="gris" (click)="cinco('')">
+<input type="button" value="6" class="gris" (click)="seis('')">
+
+
+<input type="button" value="-" class="gris" (click)="resta()">
+</div>
+<br>
+<div class="col">
+<input type="button" value="1"  class="gris" (click)="uno('')">
+<input type="button" value="2" class="gris" (click)="dos('')">
+<input type="button" value="3"  class="gris" (click)="tres('')">
+<input type="button"  value="x" class="gris" (click)="multiplica()">
+</div>
+<br>
+<div class="col">
+<input type="button" value="0"    class="gris" (click)="cero('')">
+<input type="reset"   class="gris" value="c" (click)="borrar()">
+<input type="button" value="/"  class="gris" (click)="divide()">
+<input type="button" value="=" id="ig" class="gris" (click)="resultado()">
+</div>
+</form>
+
+
+<tr>
+
+

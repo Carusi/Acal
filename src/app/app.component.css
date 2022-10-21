@@ -1,0 +1,100 @@
+html {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 60px;
+  }
+ 
+  .calculadora {
+      display: block;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgb(122, 113, 113);
+      width: 290px;
+      height: 450px;
+      border-radius: 17px;
+  }
+  
+   .col .gris{
+    margin-left: 15px;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      font-size: 25px;
+      background-color: rgb(199, 199, 199);
+  }
+  
+  #creditos {
+      display: block;
+      padding-top: 20px;
+      color: #fff;
+      text-align: center;
+      width: 300px;
+  }
+  
+  .resultado {
+      display: block;
+      font-size: 40px;
+      margin-bottom: 30px;
+      width: 280px;
+      height: 100px;
+      line-height: 100px;
+      background-color: rgb(235, 239, 245);
+      border-radius: 10px;
+      text-align: right;
+  }
+
+  #ig{
+    background-color: rgb(187, 42, 17);
+  }
+
+  #retro{
+    background-color: rgb(196, 194, 91);
+  }
+
+  #borrar{
+    background-color: rgb(196, 194, 91);
+  }
+
+  #div{
+    background-color: rgb(196, 194, 91);
+  }
+
+  #mult{
+    background-color: rgb(196, 194, 91);
+  }
+
+  #mult{
+    background-color: rgb(196, 194, 91);
+  }
+
+  #res{
+    background-color: rgb(196, 194, 91);
+  }
+
+  #sum{
+    background-color: rgb(196, 194, 91);
+  }
+
+  .memoria{
+    border: none;
+  }
+
+
+
+
+  
+  
+  
